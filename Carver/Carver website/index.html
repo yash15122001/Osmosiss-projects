@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Carver - Home</title>
+    <link rel="icon" href="./images/carver-logo-cropped.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light py-2" id="main-nav" style="font-size: large;"
+        style="font-size: large;">
+        <a class="navbar-brand" href="index.html">
+            <!-- <h3 class="d-inline align-middle">Carver</h3> -->
+            <img src="./images/carver-logo-cropped.jpg" height="75px" alt="" id="logoc">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav py-2">
+                <li class="nav-item pl-3 pl-lg-0 pl-xl-3 pl-lg-0 pl-xl-3">
+                    <span><i class="fas fa-search"></i></span><input id='search' placeholder="  Search" type="text">
+                    <span class="underline"></span>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto py-2">
+                <li class="nav-item">
+                    <a class="nav-link text-primary px-4 px-lg-3 px-xl-4  active" href="index.html"><i
+                            class="fas fa-home"></i>
+                        Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4 px-lg-3 px-xl-4 text-dark" href="courses.html"><i
+                            class="fas fa-book-open"></i>
+                        Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4 px-lg-3 px-xl-4 text-dark" href="jobs.html"><i class="fas fa-briefcase"></i>
+                        Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4 px-lg-3 px-xl-4 text-dark" href="msg.html"><i class="fas fa-envelope"></i>
+                        Messaging</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4 px-lg-3 px-xl-4 text-dark" href="notify.html"><i class="fas fa-bell"></i>
+                        Notifications</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-4 px-lg-3 px-xl-4 text-dark dropdown-toggle" href="" id="dropdownMenuButton"
+                        data-toggle="dropdown"><img src="./images/person1.jpg" class="rounded-circle profile-icon"
+                            height="30px" alt="">
+                        Aparna
+                        Nayak</a>
+                    <div class="dropdown-menu mt-0 py-0">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-2"><a class="text-dark" href="profile.html"><i
+                                        class="fas fa-user"></i> Profile</a></li>
+                            <li class="list-group-item py-2"><a class="text-dark" href="settings.html"><i
+                                        class="fas fa-cog"></i> Settings</a></li>
+                            <li class="list-group-item py-2"><a class="text-dark" href="home.html"><i
+                                        class="fas fa-sign-out-alt"></i> Logout</a>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron bg-card mx-3 py-4 mb-0">
+        <h4 class="font-weight-bold mt-2 mb-4">Aparna, complete these steps to get the most out of Carver:</h4>
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-4  mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-4 align-self-center mb-3">
+                                <img src="./images/person1.jpg"
+                                    class="rounded-circle img-fluid border-grey mx-auto d-block" alt="">
+                            </div>
+                        </div>
+                        <h5 class="card-title font-weight-bold mb-1 text-center">
+                            Do you know Prateek Bhargava?
+                        </h5>
+                        <h5 class="card-title text-muted text-center">
+                            CEO of Mindler
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4  mb-4">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title font-weight-bold text-center mb-3">
+                            Get notified about new jobs
+                        </h5>
+
+                        <div class="px-3">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-light"><i class="fas fa-briefcase"></i></span>
+                                </div>
+                                <input type="search" placeholder="Job Title"
+                                    class="form-control border-left-0 bg-light">
+                            </div>
+
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-light"><i class="fas fa-map-marker-alt"></i></span>
+                                </div>
+                                <input type="search" placeholder="Location" class="form-control border-left-0 bg-light">
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn btn-primary mt-4 mb-1 px-4">Create job alert</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4  mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-6 align-self-center mb-3 text-center px-0">
+                                <i class="far fa-check-circle rounded-circle text-grey bg-primary fa-6x"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title font-weight-bold mb-1 text-center lead">
+                            Profile Started!
+                        </h5>
+                        <p class="card-title text-muted text-center px-lg-3 mb-2" style="line-height: 25px;">
+                            Continue adding experiences and skills to showcase your accomplishment
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-sm-12 col-lg-2  mb-4">
+                <div class="card box-s">
+                    <img src="./images/blue-grad.jpg" class="card-img-top" id='blue-grad' alt="">
+                    <div class="card-body pb-1">
+                        <div class="row d-flex justify-content-center bg-img">
+                            <div class="col-8 align-self-center mb-3">
+                                <img src="./images/person1.jpg"
+                                    class="rounded-circle img-fluid border-grey mx-auto d-block" alt="">
+                            </div>
+                        </div>
+                        <div class="py-2">
+                            <h5 class="card-title font-weight-bold mb-1 text-center">
+                                Aparna Nayak
+                            </h5>
+                            <h6 class="card-title text-muted text-center">
+                                New York University (NYU)
+                            </h6>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush px-0">
+                        <li class="list-group-item d-flex justify-content-center">
+                            <table class="profile-table">
+                                <tr>
+                                    <td class="text-muted text-left py-2">Connections</td>
+                                    <td class="text-primary text-right py-2">204k</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-muted text-left py-2">Posts</td>
+                                    <td class="text-primary text-right py-2">500</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="list-group-item py-3 btn btn-light">
+                            <h6 class="text-muted text-center font-weight-bold pt-1">
+                                <i class="far fa-bookmark pr-2"></i> Saved Items
+                            </h6>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card box-s mt-4">
+                    <div class="card-body pb-1">
+                        <div class="py-2">
+                            <h5>Recent</h5>
+                            <p class="text-muted mb-1"><i class="fas fa-user-graduate"></i> Technology Ltd.</p>
+                            <p class="text-muted mb-1"> <i class="fas fa-calendar-alt"></i> Zeneeze Decor</p>
+                            <p class="text-muted mb-1"><i class="fas fa-user-graduate"></i> Technology Ltd.</p>
+                        </div>
+                        <div class="py-2">
+                            <h5>Groups</h5>
+                            <p class="text-muted mb-1"><i class="fas fa-user-graduate"></i> Technology Ltd.</p>
+                            <p class="text-muted mb-1"> <i class="fas fa-calendar-alt"></i> Zeneeze Decor</p>
+                        </div>
+                        <div class="py-2 d-flex justify-content-between">
+                            <h5>Events</h5>
+                            <p class="text-right"><a href="#"><i class="fas fa-plus text-muted"></i></a></p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush px-0">
+                        <li class="list-group-item py-2 btn btn-light">
+                            <h6 class="text-center text-dark pt-1">
+                                Discover more
+                            </h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6  ">
+                <div class="card  box-s mb-4">
+                    <div class="card-body pb-0">
+                        <div class="card-title mb-4 py-2">
+                            <h3 class="text-center">NEW POST </h3>
+                            <input type="text" class="form-control border border-dark my-4" name="" id="">
+                            <div class="row">
+                                <div class="col-12 col-sm-3 text-center">
+                                    <a href="">
+                                        <h5 class="text-dark"><i class="fas fa-image"></i> Photo</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3 text-center">
+                                    <a href="">
+                                        <h5 class="text-dark"><i class="fab fa-youtube"></i> Video</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3 text-center">
+                                    <a href="">
+                                        <h5 class="text-dark"><i class="fas fa-calendar"></i> Event</h5>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3 text-center">
+                                    <a href="">
+                                        <h5 class="text-dark"><i class="fas fa-newspaper"></i> Article</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="height:760px;
+                overflow-y: scroll;">
+                    <div class="card box-s">
+                        <div class="card-header py-0 pb-2">
+                            <a href="#!">
+                                <h3 class="text-dark text-right">...</h3>
+                            </a>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-6 d-flex flex-start align-items-center">
+                                    <img class="rounded-circle shadow-1-strong mr-1 border border-dark"
+                                        src="./images/person1.jpg" alt="avatar" width="60" height="60" />
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <a href="profile.html">
+                                                    <h6 class="fw-bold text-primary mb-1">Aparna Nayak</h6>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            New York University (NYU)
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-6 mt-0">
+                                    <div>
+
+                                        <a href="#!">
+                                            <h6 class='text-primary text-right pt-2'>Follow <i class="fas fa-plus"></i>
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <p class="mt-3 mb-4 pb-2 card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+                            </p>
+
+                            <img src="./images/posts/p1.jpg" class="img-fluid">
+
+
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex justify-content-around" style="font-size: large;">
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-thumbs-up mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Like</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-comment"></i> &nbsp;
+                                    <p class="mb-0"> Comment</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="fas fa-share mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Share</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4 box-s">
+                        <div class="card-header py-0 pb-2">
+                            <a href="#!">
+                                <h3 class="text-dark text-right">...</h3>
+                            </a>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-6 d-flex flex-start align-items-center">
+                                    <img class="rounded-circle shadow-1-strong mr-1 border border-dark"
+                                        src="./images/person1.jpg" alt="avatar" width="60" height="60" />
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <a href="profile.html">
+                                                    <h6 class="fw-bold text-primary mb-1">Aparna Nayak</h6>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            New York University (NYU)
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-6 mt-0">
+                                    <div>
+
+                                        <a href="#!">
+                                            <h6 class='text-primary text-right pt-2'>Follow <i class="fas fa-plus"></i>
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <p class="mt-3 mb-4 pb-2 card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+                            </p>
+
+                            <img src="./images/posts/p2.jpg" class="img-fluid">
+
+
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex justify-content-around" style="font-size: large;">
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-thumbs-up mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Like</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-comment"></i> &nbsp;
+                                    <p class="mb-0"> Comment</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="fas fa-share mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Share</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4 box-s">
+                        <div class="card-header py-0 pb-2">
+                            <a href="#!">
+                                <h3 class="text-dark text-right">...</h3>
+                            </a>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-6 d-flex flex-start align-items-center">
+                                    <img class="rounded-circle shadow-1-strong mr-1 border border-dark"
+                                        src="./images/person1.jpg" alt="avatar" width="60" height="60" />
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <a href="profile.html">
+                                                    <h6 class="fw-bold text-primary mb-1">Aparna Nayak</h6>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            New York University (NYU)
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-6 mt-0">
+                                    <div>
+
+                                        <a href="#!">
+                                            <h6 class='text-primary text-right pt-2'>Follow <i class="fas fa-plus"></i>
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <p class="mt-3 mb-4 pb-2 card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+                            </p>
+
+                            <img src="./images/posts/p3.jpg" class="img-fluid">
+
+
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex justify-content-around" style="font-size: large;">
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-thumbs-up mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Like</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-comment"></i> &nbsp;
+                                    <p class="mb-0"> Comment</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="fas fa-share mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Share</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4 box-s">
+                        <div class="card-header py-0 pb-2">
+                            <a href="#!">
+                                <h3 class="text-dark text-right">...</h3>
+                            </a>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-6 d-flex flex-start align-items-center">
+                                    <img class="rounded-circle shadow-1-strong mr-1 border border-dark"
+                                        src="./images/person1.jpg" alt="avatar" width="60" height="60" />
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <a href="profile.html">
+                                                    <h6 class="fw-bold text-primary mb-1">Aparna Nayak</h6>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            New York University (NYU)
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="col-6 mt-0">
+                                    <div>
+
+                                        <a href="#!">
+                                            <h6 class='text-primary text-right pt-2'>Follow <i class="fas fa-plus"></i>
+                                            </h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <p class="mt-3 mb-4 pb-2 card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+                            </p>
+
+                            <img src="./images/posts/p4.jpg" class="img-fluid">
+
+
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex justify-content-around" style="font-size: large;">
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-thumbs-up mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Like</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="far fa-comment"></i> &nbsp;
+                                    <p class="mb-0"> Comment</p>
+                                </a>
+                                <a href="#!" class="d-flex align-items-center text-dark">
+                                    <i class="fas fa-share mx-2"></i> &nbsp;
+                                    <p class="mb-0"> Share</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4  mb-4">
+                <div class="card  box-s">
+                    <div class="card-body pb-0">
+                        <div class="card-title mb-4 py-2">
+                            <h3 class="text-center">COURSES</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>UI/UX</h4>
+                                        </div>
+                                        <p class="card-text text-muted text-center font-weight-bold mb-0">
+                                            Technology &
+                                            Solutions Ltd.
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>UI/UX</h4>
+                                        </div>
+                                        <p class="card-text text-muted text-center font-weight-bold mb-0">
+                                            Technology &
+                                            Solutions Ltd.
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>UI/UX</h4>
+                                        </div>
+                                        <p class="card-text text-muted text-center font-weight-bold mb-0">
+                                            Technology &
+                                            Solutions Ltd.
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>UI/UX</h4>
+                                        </div>
+                                        <p class="card-text text-muted text-center font-weight-bold mb-0">
+                                            Technology &
+                                            Solutions Ltd.
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card box-s mt-4">
+                    <div class="card-body pb-0">
+                        <div class="card-title mb-4 py-2">
+                            <h3 class="text-center">JOBS</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>Marketing</h4>
+                                        </div>
+                                        <p class="card-text text-muted font-weight-bold mb-0">Zeneeze Decor
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>Marketing</h4>
+                                        </div>
+                                        <p class="card-text text-muted font-weight-bold mb-0">Zeneeze Decor
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>Marketing</h4>
+                                        </div>
+                                        <p class="card-text text-muted font-weight-bold mb-0">Zeneeze Decor
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="card border-sec mb-4">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4>Marketing</h4>
+                                        </div>
+                                        <p class="card-text text-muted font-weight-bold mb-0">Zeneeze Decor
+                                        </p>
+                                        <p class="card-text text-primary text-center mb-1">June 01,2021 - March
+                                            31,2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-white py-2 text-center d-flex justify-content-center">
+        <img class="align-self-center" src="./images/carver-logo-cropped1.jpg" height="16.5px" alt="">&nbsp;Carver
+        &copy;
+        <span id="year"></span>
+    </footer>
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
